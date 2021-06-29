@@ -1,0 +1,91 @@
+    
+    /* @font-face {
+    font-family: 'Circular Std Book';
+    font-style: normal;
+    src: url('../fonts/CircularStd-Book.woff') ;
+    }
+       
+    
+    @font-face {
+    font-family: 'Circular Std Medium';
+    src: local('Circular Std Medium'), url('../fonts/CircularStd-Medium.woff') format('woff');
+    }
+     */
+    
+
+.hovercard {
+    width: 290px;
+    height: auto;
+    position: relative;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+	background: #ffffff;
+	padding: 12px;
+}
+
+.hover_name_pic{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.hover_name{
+	flex: 1;
+}
+.hover_name h2{
+	font-size: 18px;
+	color: #252727;
+	font-family: 'Circular Std Medium';
+	margin: 0;
+}
+.hover_name h3{
+	font-size: 14px;
+	margin: 0;
+	color: #bfbfbf;
+	font-family: 'Circular Std Book';
+}
+
+.hover_name_img{
+	width: 66px;
+	height: 66px;
+	flex: 0 0 66px;
+	background: #323232;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.hover_tags{
+	font-family: 'Circular Std Book';
+    font-size: 15px;
+    color: #515656;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.hover_btns{
+	display: flex;
+	justify-content: flex-start; align-items: center;
+}
+.hover_btns a{
+	    font-size: 15px;
+    display: block;
+    padding: 6px;
+    text-align: center;
+    line-height: 19px;
+}
+.hover_follow{
+	background: #0ac0ed;
+	width: 108px;
+	border-radius: 3px;
+	color: #fff !important;
+	font-family: 'Circular Std Book';
+}
+.hover_view{
+	color: #7a7a7a !important;
+	 margin-left: 12px;
+}
+.hover_view .icon-link-open{
+	font-weight: 600;
+	font-size: 14px;
+}
+
+

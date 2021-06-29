@@ -1,0 +1,89 @@
+
+@font-face {
+  font-family: "Circular Std Book";
+  font-style: normal;
+  src: url("https://1840729241.rsc.cdn77.org/assets/css/fonts/CircularStd-Book.woff") format("woff"), url("https://1840729241.rsc.cdn77.org/assets/css/fonts/CircularStd-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Circular Std Medium";
+  src: url("https://1840729241.rsc.cdn77.org/assets/css/fonts/CircularStd-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Circular Std light';
+    src: url('https://1840729241.rsc.cdn77.org/assets/css/fonts/sb_light.woff2');
+    }
+@font-face {
+    font-family: 'Circular Std Bold';
+    src: url('https://1840729241.rsc.cdn77.org/assets/css/fonts/CircularStd-Black.woff');
+    }
+
+
+$primary-bg: #0F0E0E;   //02ABA5
+$primary-color: #028389;   //02ABA5
+$primary-hover: #077A80;
+$primary-black: #232323;
+$black5: #5A5A5A;
+
+@mixin flex-center {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-align {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center;
+}
+
+@mixin RLTB-0 {
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+}
+
+@mixin font-book {
+  font-family: "Circular Std Book";
+}
+
+@mixin font-medium {
+  font-family: "Circular Std Medium";
+}
+@mixin font-light {
+    font-family: 'Circular Std light';
+}
+@mixin font-bold {
+    font-family: 'Circular Std Bold';
+}
+
+@mixin transition3{
+  transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+}
+@mixin transition2{
+  transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+}
+@mixin transition6{
+  transition: all 0.6s ease-out;
+	-webkit-transition: all 0.6s ease-out;
+	-moz-transition: all 0.6s ease-out;
+	-ms-transition: all 0.6s ease-out;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}  
+}

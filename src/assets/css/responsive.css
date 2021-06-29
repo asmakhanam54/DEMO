@@ -1,0 +1,8 @@
+@media (min-width: 992px) {
+  .main-action-player {
+    padding-left: 51.5px;
+    padding-right: 51.5px; } }
+/**min991**/
+@media (min-width: 1500px) {
+  .d-xxl-flex {
+    display: flex !important; } }

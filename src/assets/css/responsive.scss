@@ -1,0 +1,170 @@
+
+
+@media only screen and (max-width: 580px){
+
+.main_search_tab{
+    padding-top: 20px;
+}
+
+body{
+    &.child-detail{
+        .side_bar_component{
+            display: none !important;
+        }
+    }
+}
+
+    .app-promo-dw{
+        display: none;
+    }
+
+    .my_logo{
+        width: 115px;
+        height: 21px;
+        margin-right: auto;
+        }
+
+
+    .login_btn{
+        font-size: 12px !important;
+width: auto !important;
+padding: 5px ;
+margin: 0 !important;
+}
+
+.my_nav{
+    padding-left: 8px;
+}	
+.my_nav .form-inline{
+    margin: 0 !important;
+    height: 46px;
+}
+.my_nav .navbar-toggler{
+    border: 0;
+    padding-left: 5px;
+}
+.my_nav .navbar-toggler .navbar-toggler-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.my_nav .navbar-collapse {
+position: absolute;
+background: rgba(0, 0, 0, 0.9);
+top: 46px;
+right: 0px;
+left: 0px;
+padding: 5px 15px;
+}
+
+.artist_search{
+    max-width: 45%;
+}
+
+.profile_dropdown .btn {
+    width: 30px;
+    height: 30px;
+}	
+
+.profile_dropdown .btn i {
+    font-size: 22px;
+}
+
+.notification_drop{
+    margin-right: 5px;
+}
+.notification_drop .icon-bell-o {
+font-size: 20px;
+padding: 4px 10px;
+}
+
+.notification_drop .dropdown-menu{
+	right: 5px;
+    left: 5px;
+    position: fixed;
+    top: 45px;
+    width: calc(100% - 10px);
+	}
+	
+	.notification_drop .dropdown-menu:after{
+		display: none;
+	}
+	
+	.notification_drop .dropdown-item{
+		    word-break: break-word;
+		font-size: 14px;
+    }
+    
+    .search_header {
+        font-size: 22px;
+        padding: 5px 10px;
+        margin-right: 10px;
+    }
+
+    footer.footer2 {
+        display: block !important;
+    }
+    footer.footer {
+        display: none;
+    }
+
+    .social_login .btn.social_fb {
+        margin-bottom: 10px;
+    }
+
+}/**580**/
+
+
+@media (min-width: 380px){
+.notification_drop .icon-bell-o, .search_header{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+}
+
+
+
+@media (min-width: 992px){
+.main-action-player {
+    padding-left: 51.5px;
+    padding-right: 51.5px;
+}
+
+}/**min991**/   
+
+@media (max-width: 1200px){
+    .navbar-collapse{
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    padding: 5px 15px;
+    position: absolute;
+    top: 46px;
+    right: 0px;
+    left: 0px;
+    display: none !important;
+    background: rgba(0, 0, 0, 0.9);
+&.show{
+    display: block !important;
+}
+    .navbar-nav{
+        &.my_menu{
+            flex-direction: column;
+        }
+    }
+    }
+    .navbar-expand-lg {
+        flex-wrap: wrap;
+        .navbar-toggler{
+        display: block;
+    }
+}
+}
+
+@media (min-width: 1500px){
+    .d-xxl-flex {
+        display: flex !important;
+    }
+}
+
+
