@@ -19,10 +19,12 @@ import { environment } from '../../environments/environment';
 
 })
 export class HomeComponent implements OnInit {
+  keepRight: boolean = true;
  
   cdnUrl = environment.cdnUrl;
   ngOnInit(): void {
     throw new Error("Method not implemented.");
+    this.keepRight = window.innerWidth < 450 ? false : true;
   }
 
 }

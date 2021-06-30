@@ -1,1 +1,52 @@
-<p>login works!</p>
+<div class="login-container">
+<div class="img-logo">
+    <img src="../../../assets/img/logo.png">
+</div>
+<div class="login-form">
+    <!-- <div class="container"> -->
+
+    <form>
+
+
+        <p class="signup-text">Don't have an account? <u class="signup-link" href="#">Sign-up</u></p>
+        <div class="signup-text mb-2">Login with</div>
+        <div class="row social_login">
+            <div class="col-sm-12 mb-3">
+                <button class="btn btn-block social_g"><i><img class="google-icon" src="../../../assets/icons/google-plus-logo (1) (1).png"></i>Sign in with Google+</button>
+            </div>
+            <div class="ors1 mb-3"> <span>OR</span> </div>
+            <div class="col-sm-12 mb-3">
+                <button class="btn btn-block social_fb"><i><img class="facebook-icon" src="../../../assets/icons/facebook-logo (1).png"></i>Sign in with Facebook</button>
+            </div>
+        </div>
+        <div class="ors mb-3"> <span>OR</span> </div>
+        <!-- <div>Please enter valid data</div> -->
+        <div class="cnt_with_email mb-3">Welcome Back</div>
+        <!-- <ng-container> -->
+        <div class="login_form position-relative">
+            <div class="form-group">
+                <label class="font-odd">Your Email</label>
+                <input type="text" class="form-control" formControlName="email" placeholder="" minlength="2">
+            </div>
+            <div class="form-group">
+                <label class="font-odd">Password</label>
+                <input type="password" class="form-control" placeholder="" formControlName="password">
+            </div>
+        </div>
+
+        <div class="forgot_pass text-right">
+            <!-- <div class="form-check float-left">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                            </div> -->
+            <u class="signup-link mb-3" href="#">Forgot Password</u>
+        </div>
+        <div class="position-relative">
+            <button type="submit" class="btn btn-black-primary mt-3 btn-lg btn-block">Login</button>
+            <!-- <span class="loginloading" *ngIf="loginloading"></span> -->
+        </div>
+
+    </form>
+    <!-- </div> -->
+</div>
+

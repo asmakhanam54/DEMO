@@ -8,6 +8,7 @@ import { FooterComponentComponent } from './views/footer-component/footer-compon
 import { LoginComponent } from './login-pages/login/login.component';
 import { SignupComponent } from './login-pages/signup/signup.component';
 import { HomeModule } from './home/home.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeModule } from './home/home.module';
     SignupComponent
   ],
   imports: [
-    BrowserModule,
+    CommonModule,
+  BrowserModule,
     AppRoutingModule,
     HomeModule
   ],

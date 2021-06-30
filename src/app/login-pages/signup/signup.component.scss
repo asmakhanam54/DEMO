@@ -1,0 +1,167 @@
+
+.login-container{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image: url('../../../assets/img/home-01.png');
+    font-family: Arial;
+    background-repeat: no-repeat;
+    background-color: #F6F6F6;
+}
+
+/* .container {
+    width: 40%;
+    height: auto;
+    background: #fff;
+    margin: auto;
+    border: 2px solid #fff;
+    margin-top: 10%;
+    padding: 35px 35px;
+} */
+
+.login-form {
+    /* width: 100%; */
+    /* padding: 5px 10px; */
+    // box-sizing: border-box;
+    /* height: 400px;
+    background: #fff; */
+    text-align: center;
+    width: 40%;
+    // height: 100%;
+    background: #fff;
+    margin: auto;
+    border: 1px solid #f5f5f5;
+    // margin-top: 0%;
+    padding: 35px 35px;
+    display: block;
+    // margin-bottom: 10%;
+    @media (max-width: 768px) {
+        width: 85%;
+        padding: 25px 5px;
+    }
+
+    .forgot_pass{
+        text-align: right;
+    }
+}
+
+.img-logo {
+    text-align: center;
+    /* margin-left: 42%; */
+    /* margin-top: -8%; */
+    display: block;
+}
+
+// .social_login {
+//     margin-right: 100px;
+//     margin-left: 100px;
+//     @media (max-width: 768px) {
+//         margin-right: 0px;
+//         margin-left: 0px;  
+//     }
+// }
+
+.btn-lg {
+    display: block;
+    border: 1px solid #EA0027;
+    background-color: #EA0027;
+    border-radius: 0px;
+    color: #F6F6F6;
+    width: 100%;
+}
+
+.btn{
+    padding: .375rem .2rem;
+}
+.signup-link {
+    cursor: pointer;
+    color: #E70026;
+}
+
+.social_g {
+    background-color: #CD3D33;
+    border-radius: 0px;
+    color: #F6F6F6;
+    width: 50%;
+    @media (max-width: 768px){
+        width: 80%
+    }
+    @media (min-width: 1024px){
+        width: 70%
+    }
+    // @media (min-width: 768px){
+    //     width: 50%
+    // }
+}
+
+.social_fb {
+    background-color: #3D61C4;
+    border-radius: 0px;
+    color: #F6F6F6;
+    // padding-right: 10%;
+    width: 50%;
+    @media (max-width: 768px){
+        width: 80%
+    }
+    @media (min-width: 1024px){
+        width: 70%
+    }
+    // @media (min-width: 768px){
+    //     width: 50%
+    // }
+}
+
+.ors1 {
+    text-align: center;
+
+}
+
+.cnt_with_email {
+    font-weight: 800;
+    font-size: 25px;
+}
+label{
+    display: flex;
+}
+.google-icon{
+    max-width: 13%;
+    height: auto;
+    margin-right: 10%;
+}
+.facebook-icon{
+    max-width: 11%;
+    height: auto;
+    margin-right: 10%;
+}
+.login_form{
+    line-height: 3;
+}
+.t_type {
+    border: 1px solid #f5f5f5;
+    max-width: 100%;
+    // margin: auto;
+    border-radius: 30px;
+    padding: 3px;
+    background-color: #e1fad3;
+    li {
+      flex:1;
+      text-align: center;
+      a {
+        font-size: 16px;
+        line-height: 26px;
+        border-radius: 29px;
+        border: 1px solid transparent;
+        color: #5eff01;
+        transition: all 0.3s ease-in;
+        
+        &.active {
+          background-color: #fff;
+          color: #5eff01;
+          border-color: #5eff01;
+        }
+      }
+    }
+  }
+  .Deliver_icon{
+      margin-right: 5px;
+  }
