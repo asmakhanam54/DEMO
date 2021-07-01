@@ -320,105 +320,22 @@ h6{
 .price_tag{
     color: #b70a69;
 }
-.sidebar {
-background-color: #fff;
-border-radius: 0px;
-padding-top: 2vh;
-border: 1px solid #f5f5f5;
-@media (max-width: 768px) {
-min-width: 100%;
-}
-}
-.manage-wrap {
-display: flex;
-flex-direction: row;
-min-width: 100%;
-background:#fff;
-}
-@media (max-width: 768px) {
-.manage-wrap {
-display: flex;
-flex-direction: column;
-}
-}
 
-a {
-text-decoration: none;
-color: #151515;
-}
-
-.sidebar-row {
-margin-left: 0 !important;
-margin-right: 0 !important;
-padding: 1vh 0vh 1vh 0vh;
-}
-
-.item {
-padding-top: 1.5vh;
-padding-bottom: 1.5vh;
-border-bottom: 1px solid #ccc;
+.down-container{
+    display: block;
+    border: 1px solid red;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    top: -160px;
+    position: relative;
+    height: auto;
+    margin-top: 2%;
 
 }
 
-.item-name span {
-font-size: 16px;
-color: #151515;
-@media (max-width: 768px) {
-font-size: 14px;
-}
-}
-
-.active a {
-border-left: 4px solid #028389;
-}
-
-.active span {
-color: #028389;
-margin-left: 5px;
-}
-
-.active .item-icon {
-margin-left: -5px;
-}
-
-.active i {
-color: #028389 !important;
-margin-left: 12px;
-}
-
-i {
-color: #ccc !important;
-width: 100%;
-font-size: 25px;
-margin-left: 1vh;
-margin-right: 2vh;
-}
-
-.icon-upcoming:before {
-color: #ccc;
-}
-.active .icon-upcoming:before {
-color: #028389;
-}
 
 
-.icon-query:before {
-color: #ccc;
-}
-.active .icon-query:before {
-color: #028389;
-}
 
-.icon-mybookings:before {
-color: #ccc;
-}
 
-.active .icon-mybookings:before {
-color: #028389;
-}
-@media (max-width: 768px) {
-.manage-main-cont {
-flex: 0 0 100;
-min-width: 100%;
-}
-}
+

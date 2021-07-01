@@ -1,0 +1,185 @@
+.order-container{
+    float: right;
+    display: block;
+    border: 1px solid transparent;
+    width: 33.33%;
+    height: auto;
+    box-shadow: 1px 0px 2px;
+    margin-top: 14%;
+    margin-bottom: 10%;
+  }
+  .form-label {
+    margin-bottom: .5rem;
+    margin-top: 0.5rem;
+}
+.ticket-booking-info-details {
+    color: #151515;
+    font-size: 12px
+}
+.green {
+    color: #028389;
+}
+
+.info-data {
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: 1px dashed #6f6d6d;
+}
+.info-data1 {
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: 1px solid #6f6d6d;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.ticket-booking-help {
+    position: absolute;
+    bottom: 1vh;
+    right: 1vh;
+    font-size: 16px;
+    display: block;
+}
+
+.fw-800 {
+    font-weight: 600;
+    color: #151515;
+    // display: block;
+    padding-right: 30%;
+}
+@media(max-width:769px) {
+    .info-data span {
+        font-size: 12px;
+    }
+    .tb-info-head-name span {
+        color: #151515;
+        font-size: 16px;
+    }
+    .head-button {
+        border: 1px solid #028389;
+        color: #028389;
+        padding: 0.5vh;
+        font-size: 12px;
+        background-color: transparent;
+        margin-left: 2vh;
+        border-radius: 6px;
+    }
+
+}
+.input-group{
+    padding: 0px!important; 
+    margin: 0px!important;
+}
+
+.input-group input {
+    border: 1px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box; 
+  outline: none;
+  padding: 10px; 
+  margin-top: 0px;
+} 
+
+  
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+   position: relative;  
+   width: 100%; 
+   display: block;  
+}
+
+.input-group input[type='button'] {
+  background-color: rgba(253, 161, 145, 0.8);
+  min-width: 30px;
+  width: 35px; 
+  position: absolute;
+  transition: all 300ms ease; 
+  color: #FFFFFF!important;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 44px;
+  padding: 0;
+  width: 44px;
+   top: 0px;
+}
+.input-group .button-minus{
+    position: absolute;
+    left: 0px!important; 
+    z-index: 2;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 44px;
+  text-align: center;
+  width: 100%; 
+  font-size: 13px;
+  margin: 0px 0 0 0;
+  resize: vertical; background-color: #FFFFFF;
+}
+
+.button-plus {
+  right:0px;
+  position: absolute; 
+}
+.light-font{
+    float: right;
+}
+.btn-lg {
+    display: block;
+    border: 1px solid #EA0027;
+    background-color: #EA0027;
+    border-radius: 0px;
+    color: #F6F6F6;
+    width: 100%;
+}
+
+.btn{
+    padding: .375rem .2rem;
+}
+
+.t_type {
+    border: 1px solid #f5f5f5;
+    max-width: 100%;
+    // margin: auto;
+    border-radius: 30px;
+    padding: 3px;
+    background-color: #e1fad3;
+    li {
+      flex:1;
+      text-align: center;
+      a {
+        font-size: 16px;
+        line-height: 26px;
+        border-radius: 29px;
+        border: 1px solid transparent;
+        color: #5eff01;
+        transition: all 0.3s ease-in;
+        
+        &.active {
+          background-color: #fff;
+          color: #5eff01;
+          border-color: #5eff01;
+        }
+      }
+    }
+  }
